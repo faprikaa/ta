@@ -5,23 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
+    "watch": "vite build --watch",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@types/chrome": "^0.0.254",
-    "@types/node": "^20.11.5",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.5.1",
-    "tailwindcss": "^3.4.17",
-    "typescript": "^5.2.2",
-    "vite": "^5.0.8"
-  },
-  "dependencies": {
-    "@shadcn/ui": "^0.0.4",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.475.0",
-    "tailwind-merge": "^3.0.1"
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "vite": "^5.0.0"
   }
 }
